@@ -10,7 +10,7 @@ const DATABASE_URL =
 module.exports = {
   VERSION: require('./package.json').version,
   SESSION_ID: (process.env.SESSION_ID || '').trim(),
-  DATABASE:
+  DATABASE:levanter_32f75241656ed426484e30e15b3ac3b31
     DATABASE_URL === databasePath
       ? new Sequelize({
           dialect: 'sqlite',
